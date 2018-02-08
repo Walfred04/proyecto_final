@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/final/index.php" />
+<title>editar_vuelo</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">editar_vuelo</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/final/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Editar productos</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Editar')])[9]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=descripcion</td>
+	<td>Me acaban de editar la descripcion :)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=imagen</td>
+	<td>/Users/walfredarreola/Sites/final/imgs/ciudad1.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//button[@type='submit'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Vuelos(current)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//a[contains(text(),'Mas info')])[8]</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
